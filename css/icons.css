@@ -1,0 +1,25 @@
+.icon-link {
+    position: absolute;
+    top: -40px;
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1002;
+    filter: drop-shadow(0 0 5px var(--neon-pink));
+}
+
+.icon-link:hover {
+    top: -45px;
+    filter: drop-shadow(0 0 15px var(--neon-cyan));
+}
+
+.icon-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.icon-link:nth-child(1) { left: 35%; }
+.icon-link:nth-child(2) { left: 50%; transform: translateX(-50%); }
+.icon-link:nth-child(3) { left: 65%; margin-left: -190px; margin-right: 10px; }
