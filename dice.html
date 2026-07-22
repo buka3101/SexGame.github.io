@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Бурмалдак</title>
+		<link rel="icon" href="icons/logo.ico" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/dice2.css">
+<link rel="stylesheet" href="css/game.css">
+<style>
+.main_content {
+    overflow: hidden;
+}
+</style>
+
+</head>
+<body>
+<div class="bg_heart_wrapper">
+<img class="bg_heart" src="/icons/bg-heart.png">
+</div>
+<header class="main_header">
+	<div class="rectangle_header"></div>
+	<div class="header_container">
+		<a href="index.html" class="icon-link"><img src="/icons/positions.png"></a>
+		<a href="game.html" class="icon-link"><img src="/icons/game.png"></a>
+		<a href="dice.html" class="icon-link"><img src="/icons/dice.png"></a>
+	</div>
+</header>
+<div class="main_content">
+<main id="container">
+
+		<section id="content">
+			<p id="draw">?</p>
+			<figure>
+				<img src="img/0.png" alt="dice" id="diceImg">
+			</figure>
+			<section id="game">
+				<button id="gameBtn">Бросок</button>
+		</section>
+		</section>	
+	</main>
+
+	<main id="container2">
+		<section id="content2">
+			<p id="draw2">?</p>
+			<figure>
+				<img src="img2/7.png" alt="dice" id="diceImg2">
+			</figure>	
+			<section id="game2">
+				<button id="gameBtn2">Бросок</button>
+				<div id="result2"></div>
+		</section>
+		</section>	
+	</main>
+
+</div>
+</div>
+	<audio preload id="sound" src="assets/dado-rolando.mp3"></audio>
+	<audio preload id="sound2" src="assets/dado-rolando.mp3"></audio>
+	<script src="js/dice.js"></script>
+	<script src="js/dice2.js"></script>
+
+
+</body>
+</html>
